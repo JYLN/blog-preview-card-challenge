@@ -12,23 +12,51 @@
     <title>Frontend Mentor | Blog preview card</title>
     <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
-  <body>
+  <body class="flex min-h-screen items-center justify-center bg-yellow p-6">
     <main>
-      <article>
-        <img src="./assets/images/illustration-article.svg" alt="" />
-        <span>Learning</span>
-        <p>Published 21 Dec 2023</p>
-        <h1>HTML &amp; CSS foundations</h1>
-        <p>
+      <article
+        class="max-w-96 rounded-[1.25rem] border border-gray-950 bg-white p-6 shadow-[8px_8px_#000]"
+      >
+        <img
+          class="mb-6 rounded-[.625rem]"
+          src="./assets/images/illustration-article.svg"
+          alt=""
+        />
+        <span
+          class="mb-3 block w-min rounded bg-yellow px-3 py-1 font-figtree text-xs/normal font-extrabold text-gray-950 sm:text-sm/normal"
+        >
+          Learning
+        </span>
+        <p
+          class="mb-3 font-figtree text-xs/normal font-medium text-gray-950 sm:text-sm/normal"
+        >
+          Published 21 Dec 2023
+        </p>
+        <h1 class="mb-3">
+          <a
+            class="font-figtree text-xl/normal font-extrabold text-gray-950 transition-colors hover:text-yellow focus:text-yellow active:text-yellow sm:text-2xl/normal"
+            href="#"
+          >
+            HTML &amp; CSS foundations
+          </a>
+        </h1>
+        <p
+          class="mb-6 font-figtree text-sm/normal font-medium text-gray-500 sm:text-base/normal"
+        >
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
-        <div>
+        <div class="flex items-center gap-3">
           <img
+            class="w-8"
             src="./assets/images/image-avatar.webp"
             alt="Headshot of Greg Cooper"
           />
-          <span>Greg Hooper</span>
+          <span
+            class="font-figtree text-sm/normal font-extrabold text-gray-950"
+          >
+            Greg Hooper
+          </span>
         </div>
       </article>
     </main>
