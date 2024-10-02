@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-using-tailwindcss-YUdnkSPsxJ)
-- Live Site URL: [TBD]()
+- Live Site URL: [Vercel](https://blog-preview-card-challenge-gamma.vercel.app/)
 
 ## My process
 
